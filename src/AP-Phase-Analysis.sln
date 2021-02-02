@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AP-Phase-Analysis", "AP-Phase-Analysis\AP-Phase-Analysis.csproj", "{DE52BFED-04AA-45AB-A960-B1E0EC1EEF73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbfSharp", "AbfSharp\AbfSharp.csproj", "{5356553C-32B5-4F81-B1AB-B24CA16E2870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE52BFED-04AA-45AB-A960-B1E0EC1EEF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE52BFED-04AA-45AB-A960-B1E0EC1EEF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE52BFED-04AA-45AB-A960-B1E0EC1EEF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE52BFED-04AA-45AB-A960-B1E0EC1EEF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5356553C-32B5-4F81-B1AB-B24CA16E2870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5356553C-32B5-4F81-B1AB-B24CA16E2870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5356553C-32B5-4F81-B1AB-B24CA16E2870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5356553C-32B5-4F81-B1AB-B24CA16E2870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56F57574-B86D-47FE-9839-781A5D5C625A}
+	EndGlobalSection
+EndGlobal
