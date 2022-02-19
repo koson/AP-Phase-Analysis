@@ -39,7 +39,7 @@ namespace AP_Phase_Analysis
                 return;
             (double x, _) = formsPlot2.GetMouseCoordinates();
             MouseIndex = ArrayIndexForX(x);
-            Vline1.X = (double)MouseIndex / SAMPLE_RATE;
+           Vline1.X = (double)MouseIndex / SAMPLE_RATE;
             Vline2.X = Vline1.X;
             formsPlot1.Render(skipIfCurrentlyRendering: true);
             formsPlot2.Render(skipIfCurrentlyRendering: true);
@@ -112,7 +112,7 @@ namespace AP_Phase_Analysis
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string defaultAbfPath = @"C:\Users\scott\Documents\GitHub\pyABF\data\abfs\17o05027_ic_ramp.abf";
+            string defaultAbfPath = @"d:\temp\demo.abf";
             if (File.Exists(defaultAbfPath))
                 LoadABF(defaultAbfPath);
         }
